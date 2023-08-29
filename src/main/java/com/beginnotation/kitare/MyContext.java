@@ -1,5 +1,6 @@
 package com.beginnotation.kitare;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.Arrays;
@@ -23,7 +24,7 @@ public class MyContext {
 
 
 
-        System.out.println(context.getBean(AutoWiringLearn.class));
+        System.out.println(context.getBean( AutoWiringLearn.class));
         System.out.println(context.getBean(String.class));
 
 

@@ -42,7 +42,7 @@ public class MyAnnotation {
     }
 
     @Bean
-    @Qualifier
+
     public AutoWiringLearn getWiring2(){
         return  new AutoWiringLearn("2","Wiring 2");
     }
